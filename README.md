@@ -1,6 +1,6 @@
 # AI Coding Tools Setup
 
-Documentation of my setup of Cursor IDE with the Claude Code and Codex extensions, completed as the first step of the HundredHires portfolio process.
+Documentation of my setup of Cursor IDE with the Claude Code and Codex extensions, completed as the first step of the 100Hires portfolio process.
 
 ## Tools Installed
 
@@ -12,8 +12,8 @@ Documentation of my setup of Cursor IDE with the Claude Code and Codex extension
 
 1. Downloaded and installed Cursor IDE on my MacBook.
 2. Opened Cursor and signed in to my account.
-3. Opened the Extensions panel, searched for **Claude Code**, installed it, and logged in.
-4. Opened the Extensions panel, searched for **Codex**, installed it, and logged in.
+3. Opened the Extensions panel, searched for **Claude Code**, installed it, and signed in.
+4. Opened the Extensions panel, searched for **Codex**, installed it, and signed in.
 5. Created a new **public** GitHub repository for this project.
 6. Cloned / opened the repository in Cursor.
 7. Created this `README.md` file documenting the setup.
@@ -21,21 +21,14 @@ Documentation of my setup of Cursor IDE with the Claude Code and Codex extension
 
 ## Issues I Ran Into and How I Solved Them
 
-<!--
-Replace the examples below with the issues YOU actually hit. Be specific —
-mention the exact message or behavior and the exact thing that fixed it.
-If something genuinely went smoothly, say so honestly rather than inventing a problem.
-Delete any that don't apply to you.
--->
+The setup ran smoothly end to end. The install steps were straightforward and neither extension required a separate browser-based OAuth sign-in as I already connected my account with VScode — installing each one and confirming it was active in the Extensions panel was enough to get it working.
 
-- **Authenticating the extensions.** After installing each extension, I had to complete a separate sign-in (browser-based OAuth) before it would work — installing the extension alone wasn't enough. Solved by clicking the sign-in prompt in the extension panel and approving access in the browser, then returning to Cursor.
-- **Telling the two assistants apart.** Claude Code and Codex both add their own panel/commands, so it took a moment to confirm each was active and logged in independently. I verified each by opening its panel and checking it showed a connected/signed-in state.
-- **First push to GitHub.** [Describe what happened — e.g. needed to set the remote, authenticate with a Personal Access Token instead of a password, or set the default branch to `main`. State exactly what you did.]
+The one thing I made sure of was verifying each tool independently rather than assuming it was ready: I opened both the Claude Code and Codex panels to confirm each was installed and active, and double-checked the GitHub repository was set to public before pushing.
 
 ## What I Learned
 
-Setting up an AI-native editor is mostly about getting each tool authenticated correctly rather than the install itself. The editor, the assistants, and GitHub are three separate accounts that each need their own sign-in, and the workflow only clicks once all three are connected.
+Setting up an AI-native editor turned out to be more straightforward than expected — the install and extension steps were quick and didn't require extra authentication hurdles. The main takeaway was the value of verifying each piece independently: confirming both assistants were active and that the GitHub repo was public, rather than assuming everything was in place.
 
 ---
 
-*Setup completed on [DATE]. Repository created and pushed to GitHub as part of the HundredHires application process.*
+*Setup completed on 06/27/2026. Repository created and pushed to GitHub as part of the 100Hires application process.*
