@@ -34,3 +34,5 @@ Setting up an AI-native editor turned out to be more straightforward than expect
 ---
 
 *Setup completed on 06/27/2026. Repository created and pushed to GitHub as part of the 100Hires application process.*
+
+**Author:** Chanatip Thawatwong (Fame) — Bangkok, Thailand · [runitagency.online](https://runitagency.online) · famety1230@gmail.com
